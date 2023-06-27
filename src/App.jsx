@@ -9,6 +9,9 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import styled from "@emotion/styled";
 import TabPanel from "@mui/lab/TabPanel/TabPanel";
+import Projects from "./components/Projects";
+
+
 
 function App(props){
 
@@ -34,6 +37,7 @@ function App(props){
               <Background/>
               <AboutMe/>
               <Skills/>
+              <Projects/>
         </ThemeProvider>
 
     );
